@@ -75,3 +75,29 @@ The CNN model consists of:
 5. Output Layer with sigmoid activation (binary classification)
 
 # Training and Evaluation
+
+1. Model is trained on 80% of images and tested on 20%.
+
+2. Augmentation applied : Rotation, Zoom, Flip, Shift.
+
+3. Optimizer : Adam
+
+4. Loss Function : Binary Crossentropy
+
+5. Performance Metrics : Accuracy, Precision, Recall
+
+# Future Enhancements
+
+1. Add multi-class classification for detecting incorrect mask usage.
+
+2. Improve accuracy with pre-trained models like MobileNetV2 or ResNet50.
+
+3. Implement real-time alert system for mask violations.
+
+# Acknowledgements
+
+1. Dataset : Chandrika Deb
+
+2. TensorFlow and Keras for deep learning models.
+
+3. OpenCV for image processing
